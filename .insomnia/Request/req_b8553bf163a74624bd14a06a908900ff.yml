@@ -1,0 +1,22 @@
+_id: req_b8553bf163a74624bd14a06a908900ff
+type: Request
+parentId: fld_a7c69752a30342adb798052ef596d87b
+modified: 1701155074006
+created: 1683708945860
+url: "{{ _.Live_BaseUrl }}{{ _.Service['accounts-service']
+  }}/api/v1/accounts/email-otp/bikathimartin@outlook.com?intent=verify-email"
+name: Send Signup Verification Mail
+description: ""
+method: POST
+body: {}
+parameters: []
+headers: []
+authentication: {}
+metaSortKey: -1683701688402
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

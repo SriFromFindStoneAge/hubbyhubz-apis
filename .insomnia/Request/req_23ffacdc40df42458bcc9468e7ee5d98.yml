@@ -1,0 +1,22 @@
+_id: req_23ffacdc40df42458bcc9468e7ee5d98
+type: Request
+parentId: fld_fee1bec32fbb4734ae01b8f343c55c17
+modified: 1701155074006
+created: 1683805531028
+url: "{{ _.Live_BaseUrl }}{{ _.Service['hobby-service']
+  }}/subcat/get-page/a32792167d8a?page=0&size=3"
+name: Get Existing Sub Category List
+description: ""
+method: GET
+body: {}
+parameters: []
+headers: []
+authentication: {}
+metaSortKey: -1683804264842
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

@@ -1,0 +1,26 @@
+_id: req_0119b00ceaed4dc68ba535face95840c
+type: Request
+parentId: fld_a7c69752a30342adb798052ef596d87b
+modified: 1701155074004
+created: 1683709823002
+url: "{{ _.Live_BaseUrl }}{{ _.Service['auth-service']
+  }}/api/v1/auth/activate-account/bikathimartin@outlook.com"
+name: Activate Account After Email Verification
+description: ""
+method: PUT
+body:
+  mimeType: application/json
+  text: ""
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+authentication: {}
+metaSortKey: -1683701688352
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

@@ -1,0 +1,39 @@
+_id: env_f96e3a68f17d49f4a5a19b4d0af99bd1
+type: Environment
+parentId: env_fe07df9874d945e7650518c3fd9b6602584640fa
+modified: 1701155074001
+created: 1683644332274
+name: Hobby Hubz
+data:
+  Live_BaseUrl: http://149.28.232.132:8765
+  Service:
+    accounts-service: /accounts-service
+    auth-service: /auth-service
+    chat-service: /chat-service
+    follower-service: /follower-service
+    helprequest-service: /helprequest-service
+    hobby-service: /hobby-service
+    mailing-service: /mailing-service
+    media-service: /media-service
+    notification-service: /notification-service
+    post-service: /post-service
+  Test_BaseUrl: http://127.0.0.1:8765
+dataPropertyOrder:
+  "&":
+    - Live_BaseUrl
+    - Test_BaseUrl
+    - Service
+  "&~|Service":
+    - accounts-service
+    - chat-service
+    - follower-service
+    - helprequest-service
+    - hobby-service
+    - mailing-service
+    - media-service
+    - notification-service
+    - post-service
+    - auth-service
+color: "#7d69cb"
+isPrivate: false
+metaSortKey: 1683644332274

@@ -1,0 +1,26 @@
+_id: req_43671006b0af4d24b951dae77d31ba19
+type: Request
+parentId: fld_f75334e0701f4528bffa303c82636f87
+modified: 1701155074004
+created: 1683814505180
+url: "{{ _.Live_BaseUrl }}{{ _.Service['post-service']
+  }}/api/posts/get-post/{postId}"
+name: get-post
+description: ""
+method: GET
+body:
+  mimeType: application/json
+  text: ""
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+authentication: {}
+metaSortKey: -1683811040478
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

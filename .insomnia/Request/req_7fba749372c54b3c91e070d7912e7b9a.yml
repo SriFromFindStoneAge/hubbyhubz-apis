@@ -1,0 +1,22 @@
+_id: req_7fba749372c54b3c91e070d7912e7b9a
+type: Request
+parentId: fld_fee1bec32fbb4734ae01b8f343c55c17
+modified: 1701155074006
+created: 1683806278562
+url: "{{ _.Live_BaseUrl }}{{ _.Service['hobby-service']
+  }}/subcat/del-sub/d3d8dd0241eb"
+name: Delete Existing Sub Category
+description: ""
+method: DELETE
+body: {}
+parameters: []
+headers: []
+authentication: {}
+metaSortKey: -1683804264692
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

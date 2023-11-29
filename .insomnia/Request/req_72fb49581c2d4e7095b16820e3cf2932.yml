@@ -1,0 +1,30 @@
+_id: req_72fb49581c2d4e7095b16820e3cf2932
+type: Request
+parentId: fld_fee1bec32fbb4734ae01b8f343c55c17
+modified: 1701155074007
+created: 1683804661168
+url: "{{ _.Live_BaseUrl }}{{ _.Service['hobby-service']
+  }}/hobby/update-details/a32792167d8a"
+name: Update Existing Hobby[Category]
+description: ""
+method: PATCH
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	"categoryName": "Gaming Category",
+    	"categoryImage": "link-to-new-hobby-image"
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+authentication: {}
+metaSortKey: -1683804265042
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

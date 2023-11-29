@@ -1,0 +1,31 @@
+_id: req_2540672da29c49a9b914c5a3013f5c41
+type: Request
+parentId: fld_fee1bec32fbb4734ae01b8f343c55c17
+modified: 1701155074013
+created: 1683807136153
+url: "{{ _.Live_BaseUrl }}{{ _.Service['hobby-service'] }}/sub/create-sub"
+name: Create User Subscription to SubHobby
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	"userId": "user12345",
+    	"userName": "Bikathi Martin",
+    	"profilePicLink": "link-to-profile-image",
+    	"subCategoryId": "8b627d77be0f"
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+authentication: {}
+metaSortKey: -1683804264592
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

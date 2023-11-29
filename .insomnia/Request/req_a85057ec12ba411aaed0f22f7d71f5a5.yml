@@ -1,0 +1,32 @@
+_id: req_a85057ec12ba411aaed0f22f7d71f5a5
+type: Request
+parentId: fld_b5b97a93ef004280af2c948a7917f6a8
+modified: 1701155074015
+created: 1685514040801
+url: "{{ _.Live_BaseUrl }}{{ _.Service['media-service']
+  }}/media/hobby/upload/dxyAbghfXcztfg"
+name: Upload Hobby Icon
+description: ""
+method: POST
+body:
+  mimeType: multipart/form-data
+  params:
+    - description: ""
+      fileName: /home/bikathi-martin/Downloads/xgame-logoB.svg
+      id: pair_61b49af997064ca89bdfc3b436e97e74
+      name: file
+      type: file
+      value: ""
+parameters: []
+headers:
+  - name: Content-Type
+    value: multipart/form-data
+authentication: {}
+metaSortKey: -1685514040801
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

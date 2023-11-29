@@ -1,0 +1,44 @@
+_id: req_b9651fe8bc2e4753bceac6cfb3bb511e
+type: Request
+parentId: fld_b5b97a93ef004280af2c948a7917f6a8
+modified: 1701155074004
+created: 1685513448952
+url: "{{ _.Live_BaseUrl }}{{ _.Service['media-service']
+  }}/media/multi-post/1730473b066a"
+name: Upload Multiple Media Per Post
+description: ""
+method: POST
+body:
+  mimeType: multipart/form-data
+  params:
+    - description: ""
+      fileName: /home/bikathi-martin/Downloads/playground-logo.svg
+      id: pair_73d317dfd7154d688ca0829f37ebaee3
+      name: files
+      type: file
+      value: ""
+    - description: ""
+      fileName: /home/bikathi-martin/Downloads/hunting.jpg
+      id: pair_545f6ba4f7bf4d8e8e10a55223cfea30
+      name: files
+      type: file
+      value: ""
+    - description: ""
+      fileName: /home/bikathi-martin/Downloads/playground-logo.svg
+      id: pair_704f999a8ba74ab09a053f3df8aa66e3
+      name: files
+      type: file
+      value: ""
+parameters: []
+headers:
+  - name: Content-Type
+    value: multipart/form-data
+authentication: {}
+metaSortKey: -1685444447561
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

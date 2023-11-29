@@ -1,0 +1,21 @@
+_id: req_e30954463dae45b1969f29c14c3bd6f4
+type: Request
+parentId: fld_f75334e0701f4528bffa303c82636f87
+modified: 1701155074010
+created: 1683871687357
+url: "{{ _.Live_BaseUrl }}{{ _.Service['post-service'] }}/api/posts/get-posts"
+name: get-posts
+description: ""
+method: GET
+body: {}
+parameters: []
+headers: []
+authentication: {}
+metaSortKey: -1683811040465.5
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

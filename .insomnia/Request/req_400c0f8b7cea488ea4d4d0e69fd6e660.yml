@@ -1,0 +1,26 @@
+_id: req_400c0f8b7cea488ea4d4d0e69fd6e660
+type: Request
+parentId: fld_0b06e0681fc443bca22de819f102eb7b
+modified: 1701155074007
+created: 1684654453885
+url: "{{ _.Live_BaseUrl }}{{ _.Service['notification-service']
+  }}api/post/notification/delete-post-type/"
+name: delete-post-notification
+description: ""
+method: POST
+body: {}
+parameters:
+  - description: ""
+    id: pair_6da76c60b14f4bdbb97a4073abee8fcc
+    name: postId
+    value: e98438f2d6ae
+headers: []
+authentication: {}
+metaSortKey: -1684654453885
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

@@ -1,0 +1,26 @@
+_id: req_91052713f0d448a491ff028fe51cf634
+type: Request
+parentId: fld_a7c69752a30342adb798052ef596d87b
+modified: 1701155074005
+created: 1683712402067
+url: "{{ _.Live_BaseUrl }}{{ _.Service['accounts-service']
+  }}/api/user/delete-account/1730473b066a"
+name: Delete Account [we will focus on this later]
+description: ""
+method: DELETE
+body: {}
+parameters: []
+headers:
+  - description: ""
+    id: pair_b8114d66343242d4b145f0fa39128fa7
+    name: Authorization
+    value: eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiIxNzMwNDczYjA2NmEiLCJpYXQiOjE2ODM3MTEyODZ9.mF39eQxCOBo_et6l1W8LfV0ickldvfKAbvqpIA6f9r3rQZAfx4jF9J1XqRHX29U6axAqn46MJkHgaFA3LZ4PMQ
+authentication: {}
+metaSortKey: -1683701688102
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

@@ -1,0 +1,29 @@
+_id: req_0a199370a1f64b03b037ee88fe8da7c3
+type: Request
+parentId: fld_f75334e0701f4528bffa303c82636f87
+modified: 1701155074013
+created: 1683871897444
+url: "{{ _.Live_BaseUrl }}{{ _.Service['post-service'] }}/api/posts/add-comment"
+name: add-comment
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	"comment":"nice workout routine buddy!",
+    	"email":"amedakevin@gmail.com"
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+authentication: {}
+metaSortKey: -1683811040440.5
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

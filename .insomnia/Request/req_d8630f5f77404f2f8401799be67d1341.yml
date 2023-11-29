@@ -1,0 +1,29 @@
+_id: req_d8630f5f77404f2f8401799be67d1341
+type: Request
+parentId: fld_a7c69752a30342adb798052ef596d87b
+modified: 1701155122731
+created: 1683701688452
+url: "{{ _.Live_BaseUrl }}{{ _.Service['auth-service'] }}/api/v1/auth/register"
+name: Sign Up
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	"email": "bakhtbiland200@gmail.com",
+    	"password": "simplePassword"
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+authentication: {}
+metaSortKey: -1683701688452
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

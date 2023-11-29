@@ -1,0 +1,44 @@
+_id: req_3a645ca4a74b40dd98d5f11d1f08ed1a
+type: Request
+parentId: fld_f75334e0701f4528bffa303c82636f87
+modified: 1701155074006
+created: 1683813314855
+url: "{{ _.Live_BaseUrl }}{{ _.Service['post-service'] }}/api/posts/add-post"
+name: create-post
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	"postDetails":"test details",
+    	"images":["img1","img5"],
+    	"keywords":["barlet","yoga","cardio"],
+    	"postType":{
+    		"postType":"workout"
+    	},
+    	"email":"amedakevin@gmail.com"
+    }
+parameters:
+  - description: ""
+    id: pair_0fa80f0706434c4ba1bf6228f98c802e
+    name: ""
+    value: ""
+headers:
+  - id: pair_75125bb1561049ad90e46f833497bd0d
+    name: Content-Type
+    value: application/json
+  - description: ""
+    id: pair_70aeb2e20fa5435596121a8e75a002d5
+    name: Authorization
+    value: Bearer
+      eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJhNjBiZjIxYTk1YWUiLCJleHAiOjE3MDIzNzA5MTIsImlhdCI6MTY5OTg2NTMxMn0.f0vBU2mfMGsHYTRRxJQPrR8o6IA4kfEq1kSJvgJiLA7wyoeJJ__DDAeYNEzHkAWgF3xYeaZScXiLaxQrl_No1Q
+authentication: {}
+metaSortKey: -1683811040490.5
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

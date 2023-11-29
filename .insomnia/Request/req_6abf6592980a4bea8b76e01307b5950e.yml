@@ -1,0 +1,30 @@
+_id: req_6abf6592980a4bea8b76e01307b5950e
+type: Request
+parentId: fld_a7c69752a30342adb798052ef596d87b
+modified: 1701155074005
+created: 1698135441786
+url: "{{ _.Live_BaseUrl }}{{ _.Service['accounts-service']
+  }}/api/v1/accounts/verify-otp/bikathimartin@outlook.com/2807"
+name: Verify OTP[sent for password change and signup]
+description: ""
+method: PUT
+body: {}
+parameters: []
+headers:
+  - description: ""
+    id: pair_382241571c554a17b3cb80ce75c92adb
+    name: Authorization
+    value: eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiIxNzMwNDczYjA2NmEiLCJpYXQiOjE2ODM3MTEyODZ9.mF39eQxCOBo_et6l1W8LfV0ickldvfKAbvqpIA6f9r3rQZAfx4jF9J1XqRHX29U6axAqn46MJkHgaFA3LZ4PMQ
+  - description: ""
+    id: pair_797ba5316f09402fab3786bd2499296f
+    name: Intent
+    value: Reset-Password
+authentication: {}
+metaSortKey: -1683701688377
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

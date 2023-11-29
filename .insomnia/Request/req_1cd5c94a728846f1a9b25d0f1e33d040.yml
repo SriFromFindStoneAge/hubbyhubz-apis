@@ -1,0 +1,35 @@
+_id: req_1cd5c94a728846f1a9b25d0f1e33d040
+type: Request
+parentId: fld_a7c69752a30342adb798052ef596d87b
+modified: 1701155074008
+created: 1683712157722
+url: "{{ _.Live_BaseUrl }}{{ _.Service['auth-service']
+  }}/api/v1/auth/reset-password"
+name: Reset Password
+description: ""
+method: PUT
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	"email": "bikathimartin@outlook.com",
+    	"newPassword": "simpleNewPassword"
+    }
+parameters: []
+headers:
+  - id: pair_99d6c9c72721453c96ec8323b920204b
+    name: Content-Type
+    value: application/json
+  - description: ""
+    id: pair_94d1bafe3194437eac5d3bcb1efbd807
+    name: Authorization
+    value: eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiIxNzMwNDczYjA2NmEiLCJpYXQiOjE2ODM3MTEyODZ9.mF39eQxCOBo_et6l1W8LfV0ickldvfKAbvqpIA6f9r3rQZAfx4jF9J1XqRHX29U6axAqn46MJkHgaFA3LZ4PMQ
+authentication: {}
+metaSortKey: -1683701688152
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

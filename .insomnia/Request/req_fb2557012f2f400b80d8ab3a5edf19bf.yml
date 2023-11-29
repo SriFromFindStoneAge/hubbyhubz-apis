@@ -1,0 +1,22 @@
+_id: req_fb2557012f2f400b80d8ab3a5edf19bf
+type: Request
+parentId: fld_fee1bec32fbb4734ae01b8f343c55c17
+modified: 1701155074011
+created: 1683804840703
+url: "{{ _.Live_BaseUrl }}{{ _.Service['hobby-service']
+  }}/hobby/delete-hobby/de33fb454704"
+name: Delete Hobby & Sub-Hobbys
+description: ""
+method: DELETE
+body: {}
+parameters: []
+headers: []
+authentication: {}
+metaSortKey: -1683804264992
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global
